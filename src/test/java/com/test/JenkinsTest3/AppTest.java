@@ -33,7 +33,4 @@ public class AppTest {
 		return responseData;
 	}
 
-	public void nothing() {
-		System.out.println("Added something");
-	}
 }
