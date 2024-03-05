@@ -13,8 +13,8 @@ public class AppTest {
 
 	@Test
 	public void testApiDataMatch() throws Exception {
-		String apiUrl1 = "https://dummyjson.com/products/2";
-		String apiUrl2 = "https://dummyjson.com/products/2";
+		String apiUrl1 = "https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8";
+		String apiUrl2 = "https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8";
 
 		String dataFromApi1 = getDataFromApi(apiUrl1);
 		String dataFromApi2 = getDataFromApi(apiUrl2);
