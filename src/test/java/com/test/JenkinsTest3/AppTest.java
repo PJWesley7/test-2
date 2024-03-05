@@ -1,4 +1,4 @@
-package com.test.JenkinsTest2;
+package com.test.JenkinsTest3;
 
 import static org.junit.Assert.assertEquals;
 
