@@ -13,8 +13,8 @@ public class AppTest {
 
 	@Test
 	public void testApiDataMatch() throws Exception {
-		String apiUrl1 = "https://configapi.uat-spark.idfcbank.com/api/config/service/dh-commshub-integration-service/environment/uat/platform/eks";
-		String apiUrl2 = "https://configapi.uat-spark.idfcbank.com/api/config/service/dh-commshub-integration-service/environment/uat/platform/eks";
+		String apiUrl1 = "https://dummyjson.com/products/2";
+		String apiUrl2 = "https://dummyjson.com/products/2";
 
 		String dataFromApi1 = getDataFromApi(apiUrl1);
 		String dataFromApi2 = getDataFromApi(apiUrl2);
