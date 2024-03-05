@@ -8,8 +8,5 @@ pipeline{
      stage('Test'){
          steps{sh 'mvn clean test'}
      }
-     stage('Save Test Results'){
-         steps{junit '**/sure-fire-reports/*.xml'}
-     }
     }
 }
