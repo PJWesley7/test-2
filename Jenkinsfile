@@ -1,5 +1,5 @@
 pipeline{
-    agent{label 'JenkinsTets'}
+    agent{label 'JenkinsTest'}
     triggers{pollSCM('* * * * *')}
     stages{
      stage('SourceCode'){
